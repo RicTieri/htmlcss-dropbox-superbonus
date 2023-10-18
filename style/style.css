@@ -118,10 +118,17 @@ li:hover .sub-menu {
 .jumbo-navbar li {
   padding: 1rem 2rem;
   display: inline-block;
+  position: relative;
 }
 
-.jumbo-navbar li:hover {
-  border-bottom: 2px solid white;
+.jumbo-navbar li:hover:after{
+  content:'';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: white;
 }
 
 .jumbo-article {
@@ -132,7 +139,6 @@ li:hover .sub-menu {
   object-fit: cover;
   object-position: center;
   width: 100%;
-  position: relative;
 }
 
 .column {
@@ -179,14 +185,19 @@ li:hover .sub-menu {
 }
 
 .jumbo-right:nth-child(4),
-.jumbo-right:nth-child(5) {
+.jumbo-right:nth-child(3) {
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.column-40>i {
+.play{
+  position: relative;
+}
+
+.play>i {
   position: absolute;
-  left: 79%;
-  top: 33%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   font-size: 4rem;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -352,7 +363,26 @@ li:hover .sub-menu {
 /* remote-work */
 
 .remote-work {
-  padding: 8rem;
+  padding: 8rem 4rem;
+  background-color: #f7f5f2;
+}
+
+.remote-work .wrapper{
+  margin: 3rem 1rem;
+  background-color: white;
+  height: 70vh;
+}
+
+.column-50{
+  width: 50%;
+  height: 100%;
+}
+
+.column-50 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 /* footer */
