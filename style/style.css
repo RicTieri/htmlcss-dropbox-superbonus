@@ -98,6 +98,26 @@ li:hover .sub-menu {
 
 /* main */
 
+/* jumbo */
+
+.jumbo{
+  background-color: black;
+  color: white;
+  height: 600px;
+}
+
+.jumbo-navbar{
+  border-bottom: 1px solid white;
+}
+
+.jumbo-navbar ul{
+  list-style: none;
+}
+
+.jumbo-navbar li{
+  padding: 1rem 2rem;
+  display: inline-block;
+}
 
 /* footer */
 
