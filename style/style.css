@@ -39,7 +39,7 @@ header nav>ul>li>a {
   cursor: pointer;
 }
 
-header nav>ul>li>a:hover{
+header nav>ul>li>a:hover {
   border-bottom: 2px solid #0061ff;
 }
 
@@ -100,25 +100,68 @@ li:hover .sub-menu {
 
 /* jumbo */
 
-.jumbo{
+.jumbo {
   background-color: black;
   color: white;
-  height: 600px;
 }
 
-.jumbo-navbar{
+.jumbo-navbar {
+  width: 100%;
   border-bottom: 1px solid white;
 }
 
-.jumbo-navbar ul{
+.jumbo-navbar ul {
   list-style: none;
 }
 
-.jumbo-navbar li{
+.jumbo-navbar li {
   padding: 1rem 2rem;
   display: inline-block;
 }
 
+.jumbo-article {
+  display: flex;
+}
+
+.column img {
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column-60 {
+  width: 60%;
+}
+
+.column-40 {
+  width: 40%;
+}
+
+.left-jumbo {
+  width: 80%;
+  padding: 2rem;
+}
+
+.left-jumbo h1 {
+  padding-bottom: 2rem;
+  font-size: 3.5rem;
+}
+
+.left-jumbo p {
+  padding-bottom: 4rem;
+}
+
+.jumbo-right{
+  padding: 3rem 4rem;
+}
+
+.jumbo-right:nth-child(3),
+.jumbo-right:nth-child(4) {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
 
 
 /* footer */
