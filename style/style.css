@@ -221,7 +221,7 @@ li:hover .sub-menu {
 }
 
 .article{
-  padding: 3rem 10rem
+  padding: 3rem 10rem;
 }
 
 .article h2{
@@ -252,6 +252,54 @@ li:hover .sub-menu {
   position: absolute;
   top: 40vw;
   right: 10%;
+}
+
+/* full width */
+
+.full-width{
+  margin-top: 10rem;
+  width: 100%;
+  position: relative;
+}
+
+.full-width img{
+  width: 100%;
+  display: block;
+}
+
+.on-screen{
+  position: absolute;
+  height: 30%;
+  width: 33%;
+  left: 0;
+  bottom: 0;
+  background-color: #9a0032;
+  color: white;
+}
+
+.on-screen h2{
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+
+.video-title{
+  position: relative;
+  height: 100%;
+}
+
+.video-info{
+  padding: 3rem;
+}
+
+.video-btn{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 1.5rem;
+  font-size: 1rem;
+  color: black;
+  background-color: white;
 }
 
 /* footer */
