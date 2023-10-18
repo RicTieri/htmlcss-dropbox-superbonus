@@ -363,11 +363,12 @@ li:hover .sub-menu {
 /* remote-work */
 
 .remote-work {
-  padding: 8rem 4rem;
+  padding: 6rem 4rem 6rem 2.5rem;
   background-color: #f7f5f2;
 }
 
 .remote-work .wrapper{
+  display: flex;
   margin: 3rem 1rem;
   background-color: white;
   height: 70vh;
@@ -383,6 +384,29 @@ li:hover .sub-menu {
   height: 100%;
   object-fit: cover;
   object-position: center;
+}
+
+.text-column{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 4rem 0;
+}
+
+.text-column>*{
+  margin: 0 5rem;
+}
+
+.text-column h2{
+  font-size: 3rem;
+  font-weight: 400;
+  padding-bottom: 2rem;
+}
+
+.text-column .btn{
+  padding: .9rem 1.75rem;
 }
 
 /* footer */
