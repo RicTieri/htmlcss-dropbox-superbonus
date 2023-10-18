@@ -121,8 +121,8 @@ li:hover .sub-menu {
   position: relative;
 }
 
-.jumbo-navbar li:hover:after{
-  content:'';
+.jumbo-navbar li:hover:after {
+  content: '';
   position: absolute;
   bottom: 0;
   left: 0;
@@ -131,7 +131,7 @@ li:hover .sub-menu {
   background-color: white;
 }
 
-.jumbo-wrapper{
+.jumbo-wrapper {
   display: flex;
 }
 
@@ -194,7 +194,7 @@ li:hover .sub-menu {
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.play{
+.play {
   position: relative;
 }
 
@@ -372,26 +372,26 @@ li:hover .sub-menu {
   background-color: #f7f5f2;
 }
 
-.remote-work .wrapper{
+.remote-work .wrapper {
   display: flex;
   margin: 3rem 1rem;
   background-color: white;
   height: 70vh;
 }
 
-.column-50{
+.column-50 {
   width: 50%;
   height: 100%;
 }
 
-.column-50 img{
+.column-50 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
 }
 
-.text-column{
+.text-column {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -400,18 +400,79 @@ li:hover .sub-menu {
   padding: 4rem 0;
 }
 
-.text-column>*{
+.text-column>* {
   margin: 0 5rem;
 }
 
-.text-column h2{
+.text-column h2 {
   font-size: 3rem;
   font-weight: 400;
   padding-bottom: 2rem;
 }
 
-.text-column .btn{
+.text-column .btn {
   padding: .9rem 1.75rem;
+}
+
+/* vertical wrapper */
+
+.vertical-wrapper {
+  padding-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.vertical-wrapper span:first-child {
+  font-weight: bold;
+}
+
+.vertical-wrapper h1 {
+  font-size: 4.5rem;
+  font-weight: 500;
+}
+
+.slide-direction {
+  align-self: flex-end;
+  padding: 2rem 4rem;
+}
+
+.slide-direction i {
+  padding: .8rem;
+}
+
+.slider {
+  margin-left: 7rem;
+  width: calc(100% - 7rem);
+  background-color: #f7f5f2;
+  display: flex;
+}
+
+.box-slide {
+  width: calc(100% / 4);
+}
+
+.box-slide img {
+  width: 100%;
+}
+
+.caption{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.caption p{
+  margin: 1.5rem 2rem 0 0;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+
+.caption .btn{
+  padding: 1rem 1.5rem;
 }
 
 /* footer */
