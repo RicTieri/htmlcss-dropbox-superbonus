@@ -1,0 +1,154 @@
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* header\ */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1rem;
+  height: 80px;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav>ul>li {
+  margin: 1rem;
+  display: inline;
+  position: relative;
+}
+
+header nav>ul>li>a {
+  text-decoration: none;
+  display: inline-block;
+  line-height: 78px;
+  border-bottom: 2px solid white;
+  color: black;
+  cursor: pointer;
+}
+
+header nav>ul>li>a:hover{
+  border-bottom: 2px solid #0061ff;
+}
+
+#logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.btn {
+  font-size: 1.1rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  background-color: #0061ff;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-white {
+  background-color: white;
+  color: black;
+}
+
+/* sub-menu */
+
+.sub-menu {
+  display: none;
+  font-size: 0.8rem;
+}
+
+.sub-menu ul {
+  padding: 1rem 2rem;
+  width: 250px;
+}
+
+.sub-menu li {
+  padding: 0.5rem;
+}
+
+.sub-menu ul li a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  padding: auto;
+}
+
+li:hover .sub-menu {
+  display: block;
+  position: absolute;
+  display: flex;
+  top: 53px;
+  left: -30px;
+  background-color: white;
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* main */
+
+
+/* footer */
+
+footer {
+  margin-top: 8rem;
+  background-color: black;
+  color: white;
+}
+
+.wider-container {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.links {
+  margin: auto;
+}
+
+.link-container {
+  width: calc(100% / 5);
+}
+
+footer ul {
+  padding: 5rem 0;
+  list-style: none;
+}
+
+footer ul li:first-child {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+footer li {
+  padding: 0.66rem 0;
+}
+
+.interline-3 {
+  margin-left: 15%;
+  width: 7%;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.language {
+  color: rgba(255, 255, 255, 0.6);
+  padding: 3.5rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.language i {
+  margin: 0.5rem;
+}
