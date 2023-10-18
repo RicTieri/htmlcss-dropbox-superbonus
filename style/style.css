@@ -101,8 +101,9 @@ li:hover .sub-menu {
 /* jumbo */
 
 .jumbo {
-  background-color: black;
+  background-color: #1e1919;
   color: white;
+  height: ;
 }
 
 .jumbo-navbar {
@@ -124,6 +125,8 @@ li:hover .sub-menu {
 }
 
 .column img {
+  object-fit: cover;
+  object-position: center;
   width: 100%;
 }
 
@@ -146,16 +149,28 @@ li:hover .sub-menu {
 }
 
 .left-jumbo h1 {
+  font-weight: 400;
   padding-bottom: 2rem;
   font-size: 3.5rem;
 }
 
 .left-jumbo p {
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 
 .jumbo-right{
   padding: 3rem 4rem;
+}
+
+.jumbo-right h2{
+  font-weight: 400;
+  font-size: 2rem;
+  padding-bottom: 3rem;
+}
+
+.jumbo-right span{
+  font-size: .8rem;
+  padding: 3rem 0;
 }
 
 .jumbo-right:nth-child(3),
