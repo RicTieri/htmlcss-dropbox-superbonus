@@ -132,6 +132,7 @@ li:hover .sub-menu {
   object-fit: cover;
   object-position: center;
   width: 100%;
+  position: relative;
 }
 
 .column {
@@ -177,9 +178,17 @@ li:hover .sub-menu {
   padding: 3rem 0;
 }
 
-.jumbo-right:nth-child(3),
-.jumbo-right:nth-child(4) {
+.jumbo-right:nth-child(4),
+.jumbo-right:nth-child(5) {
   border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.column-40>i {
+  position: absolute;
+  left: 79%;
+  top: 33%;
+  font-size: 4rem;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* article */
@@ -189,7 +198,7 @@ li:hover .sub-menu {
   padding: 10rem 0;
 }
 
-.flex-reverse{
+.flex-reverse {
   flex-direction: row-reverse;
 }
 
@@ -200,7 +209,7 @@ li:hover .sub-menu {
   height: 50vw;
 }
 
-.img-wrapper> img{
+.img-wrapper>img {
   width: 100%;
 }
 
@@ -220,34 +229,34 @@ li:hover .sub-menu {
   position: relative;
 }
 
-.article{
+.article {
   padding: 3rem 10rem;
 }
 
-.article h2{
+.article h2 {
   font-size: 4rem;
   font-weight: 400;
   padding-bottom: 2rem;
 }
 
-.article p{
+.article p {
   font-weight: bold;
   line-height: 1.8rem;
   padding-bottom: 3rem;
 }
 
-.article .btn{
+.article .btn {
   padding: 1rem 2rem;
 }
 
-.article-img{
+.article-img {
   width: 35%;
   position: absolute;
   top: 40vw;
   left: 10%;
 }
 
-.article-img-reverse{
+.article-img-reverse {
   width: 35%;
   position: absolute;
   top: 40vw;
@@ -260,18 +269,18 @@ li:hover .sub-menu {
 
 /* full width */
 
-.full-width{
+.full-width {
   margin-top: 10rem;
   width: 100%;
   position: relative;
 }
 
-.full-width img{
+.full-width img {
   width: 100%;
   display: block;
 }
 
-.on-screen{
+.on-screen {
   position: absolute;
   height: 30%;
   width: 33%;
@@ -281,22 +290,22 @@ li:hover .sub-menu {
   color: white;
 }
 
-.on-screen h2{
+.on-screen h2 {
   font-size: 2.5rem;
   font-weight: 500;
   margin-bottom: 3rem;
 }
 
-.video-title{
+.video-title {
   position: relative;
   height: 100%;
 }
 
-.video-info{
+.video-info {
   padding: 3rem;
 }
 
-.video-btn{
+.video-btn {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -308,7 +317,7 @@ li:hover .sub-menu {
 
 /* banner */
 
-.banner{
+.banner {
   margin-top: 8rem;
   display: flex;
   flex-direction: column;
@@ -317,27 +326,33 @@ li:hover .sub-menu {
   background-color: #fad04a;
 }
 
-.banner p{
+.banner p {
   margin: 6rem 0 2rem 0;
   font-weight: bold;
 }
 
-.banner h1{
+.banner h1 {
 
   font-size: 3.5rem;
   font-weight: 500;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.banner i{
+.banner i {
   font-size: 1.8rem;
   margin-left: 4rem;
 }
 
-.banner a{
+.banner a {
   color: black;
   margin-top: 2rem;
   margin-bottom: 6rem;
+}
+
+/* remote-work */
+
+.remote-work {
+  padding: 8rem;
 }
 
 /* footer */
